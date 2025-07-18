@@ -45179,6 +45179,7 @@ not the volume of the gas. The reference conditions for standard cubic metre are
   qudt:informativeReference "doi:10.1016/B978-1-933762-00-5.50012-8"^^xsd:anyURI ;
   qudt:informativeReference "ncim:C2348523"^^xsd:anyURI ;
   qudt:symbol "scm" ;
+  qudt:exactMatch unit:
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Standard Cubic Meter"@en-US ;
   rdfs:label "Standard Cubic Metre"@en ;
@@ -45213,7 +45214,7 @@ The definition of a $\\textit{standard cubic metre}$ conforming to the Dutch Min
   rdfs:label "Standaard Kubieke Meter"@nl ;
   rdfs:label "Standard Cubic Metre"@en .
   
-unit:SCM_0DEG_C_1ATM_US
+unit:SCM_0DEG_C_1ATM
   a qudt:ContextualUnit, qudt:Unit ;
   dcterms:description """
 The $\\textit{standard cubic metre}$ (scm) is a unit representing the amount of gas (such as natural gas) contained in a volume of one cubic metre at reference temperature and pressure conditions. As such, it is a measure of the actual amount of gas, not the volume of the gas. The reference conditions for standard cubic metre are 0 degrees Celsius and 101.325 kilopascals (kPa) of pressure.
@@ -45225,6 +45226,7 @@ The $\\textit{standard cubic metre}$ (scm) is a unit representing the amount of 
   qudt:hasQuantityKind quantitykind:AmountOfSubstance ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Standard_cubic_foot"^^xsd:anyURI ;
   qudt:symbol "scm" ;
+  qudt:exactMatch unit:SCM ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Standard Cubic Meter"@en-US ;
   rdfs:label "Standard Cubic Metre"@en .
