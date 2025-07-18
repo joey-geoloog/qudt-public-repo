@@ -1141,10 +1141,10 @@ unit:SCM
 unit:SCM_0DEG_C_1ATM
   qudt:scalingOf unit:MOL .
 
-unit:SCM_15DEG_C_1ATM_ISO
+unit:SCM_15DEG_1ATM_C_NL
   qudt:scalingOf unit:MOL .
 
-unit:SCM_15DEG_1ATM_C_NL
+unit:SCM_15DEG_C_1ATM_ISO
   qudt:scalingOf unit:MOL .
 
 unit:SH

@@ -45248,15 +45248,17 @@ The $\\textit{standard cubic metre}$ (scm) is a unit representing the amount of 
 unit:SCM_15DEG_C_1ATM_ISO
   a qudt:ContextualUnit, qudt:Unit ;
   dcterms:description """
-A $\\textit{standard cubic metre}$ as defined by ISO 91:2017, generally applicable within the oil and gas sectors. The reference conditions for an ISO standard cubic metre are 15 degrees Celsius at 1 standard atmosphere (atm), equivalent to 101.325 kilopascals (kPa) of pressure.
+A $\\textit{standard cubic metre}$ as defined by ISO 91:2017, generally applicable within the oil and gas sectors. The reference conditions for an ISO standard cubic metre are 15 degrees Celsius at 1 standard atmosphere (atm), equivalent to 101.325 kilopascals (kPa) of pressure following ISO 2533:1975.
   """^^qudt:LatexString ;
   qudt:applicableSystem sou:SI ;
-  qudt:conversionMultiplier 0.0 ;
-  qudt:conversionMultiplierSN 0.0E0 ;
+  qudt:conversionMultiplier 1.0547 ;
+  qudt:conversionMultiplierSN 1.0547E0 ;
   qudt:exactMatch unit:SCM_1ATM_15DEG_C_NL ;
+  qudt:scalingOf unit:M3 ;
   qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T0D0 ;
   qudt:hasQuantityKind quantitykind:AmountOfSubstance ;
   qudt:informativeReference "urn:iso:std:iso:91:ed-1:v1"^^xsd:anyURI ;
+  qudt:informativeReference "urn:iso:std:iso:2533:ed-1:v1"^^xsd:anyURI ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Standard Cubic Metre"@en .
 
