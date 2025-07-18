@@ -804,6 +804,12 @@ unit:N
     qudt:exponent -2 ;
     qudt:hasUnit unit:SEC ;
   ] .
+  
+unit:NCM
+  qudt:scalingOf unit:MOL .
+
+unit:NCM_0DEG_C_1ATM_NL
+  qudt:scalingOf unit:MOL .
 
 unit:NT
   qudt:scalingOf unit:M3 .
@@ -1128,8 +1134,14 @@ unit:S
 
 unit:SCF
   qudt:scalingOf unit:MOL .
-
+  
 unit:SCM
+  qudt:scalingOf unit:MOL .
+  
+unit:SCM_15DEG_C_1ATM_ISO
+  qudt:scalingOf unit:MOL .
+
+unit:SCM_15DEG_C_1ATM_NL
   qudt:scalingOf unit:MOL .
 
 unit:SH
