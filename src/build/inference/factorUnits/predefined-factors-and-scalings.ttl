@@ -804,7 +804,7 @@ unit:N
     qudt:exponent -2 ;
     qudt:hasUnit unit:SEC ;
   ] .
-  
+
 unit:NCM
   qudt:scalingOf unit:MOL .
 
@@ -1134,17 +1134,17 @@ unit:S
 
 unit:SCF
   qudt:scalingOf unit:MOL .
-  
+
 unit:SCM
   qudt:scalingOf unit:MOL .
 
-unit:SCM_1ATM_0DEG_C
-  qudt:scalingOf unit:MOL .
-  
-unit:SCM_1ATM_15DEG_C_ISO
+unit:SCM_0DEG_C_1ATM
   qudt:scalingOf unit:MOL .
 
-unit:SCM_1ATM_15DEG_C_NL
+unit:SCM_15DEG_C_1ATM_ISO
+  qudt:scalingOf unit:MOL .
+
+unit:SCM_15DEG_1ATM_C_NL
   qudt:scalingOf unit:MOL .
 
 unit:SH
