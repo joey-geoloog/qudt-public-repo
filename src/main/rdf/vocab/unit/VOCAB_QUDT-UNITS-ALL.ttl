@@ -45228,7 +45228,7 @@ not the volume of the gas. The reference conditions for standard cubic metre per
   rdfs:label "Standard Cubic Meter per Minute"@en-US ;
   rdfs:label "Standard Cubic Metre per Minute"@en .
 
-unit:SCM_0DEG_C_1ATM
+unit:SCM_1ATM_0DEG_C
   a qudt:ContextualUnit, qudt:Unit ;
   dcterms:description """
 The $\\textit{standard cubic metre}$ (scm) is a unit representing the amount of gas (such as natural gas) contained in a volume of one cubic metre at reference temperature and pressure conditions. As such, it is a measure of the actual amount of gas, not the volume of the gas. The reference conditions for standard cubic metre are 0 degrees Celsius and 101.325 kilopascals (kPa) of pressure.
@@ -45245,16 +45245,14 @@ The $\\textit{standard cubic metre}$ (scm) is a unit representing the amount of 
   rdfs:label "Standard Cubic Meter"@en-US ;
   rdfs:label "Standard Cubic Metre"@en .
 
-unit:SCM_15DEG_C_1ATM_ISO
+unit:SCM_1ATM_15DEG_C_ISO
   a qudt:ContextualUnit, qudt:Unit ;
   dcterms:description """
 A $\\textit{standard cubic metre}$ as defined by ISO 91:2017, generally applicable within the oil and gas sectors. The reference conditions for an ISO standard cubic metre are 15 degrees Celsius at 1 standard atmosphere (atm), equivalent to 101.325 kilopascals (kPa) of pressure following ISO 2533:1975.
   """^^qudt:LatexString ;
   qudt:applicableSystem sou:SI ;
-  qudt:conversionMultiplier 1.0547 ;
-  qudt:conversionMultiplierSN 1.0547E0 ;
-  qudt:exactMatch unit:SCM_1ATM_15DEG_C_NL ;
-  qudt:scalingOf unit:M3 ;
+  qudt:conversionMultiplier 0.0 ;
+  qudt:conversionMultiplierSN 0.0E0 ;
   qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T0D0 ;
   qudt:hasQuantityKind quantitykind:AmountOfSubstance ;
   qudt:informativeReference "urn:iso:std:iso:91:ed-1:v1"^^xsd:anyURI ;
@@ -45262,7 +45260,7 @@ A $\\textit{standard cubic metre}$ as defined by ISO 91:2017, generally applicab
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Standard Cubic Metre"@en .
 
-unit:SCM_15DEG_C_1ATM_NL
+unit:SCM_1ATM_15DEG_C_NL
   a qudt:ContextualUnit, qudt:Unit ;
   dcterms:description """
 The definition of a $\\textit{standard cubic metre}$ conforming to the Dutch Mining Regulations (Mijnbouwregeling) for reporting figures in the Dutch oil and gas industry, and used for liquids except brine (pekel). The reference conditions for a Dutch standard cubic metre are 15 degrees Celsius at 1 standard atmosphere (atm), equivalent to 101.325 kilopascals (kPa) of pressure.
@@ -45270,7 +45268,7 @@ The definition of a $\\textit{standard cubic metre}$ conforming to the Dutch Min
   qudt:applicableSystem sou:SI ;
   qudt:conversionMultiplier 0.0 ;
   qudt:conversionMultiplierSN 0.0E0 ;
-  qudt:exactMatch unit:SCM_15DEG_C_1ATM_ISO ;
+  qudt:exactMatch unit:SCM_1ATM_15DEG_C_ISO ;
   qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T0D0 ;
   qudt:hasQuantityKind quantitykind:AmountOfSubstance ;
   qudt:informativeReference "http://wetten.overheid.nl/jci1.3:c:BWBR0014468&hoofdstuk=11&paragraaf=11.3&artikel=11.3.1"^^xsd:anyURI ;

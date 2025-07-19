@@ -808,7 +808,7 @@ unit:N
 unit:NCM
   qudt:scalingOf unit:MOL .
 
-unit:NCM_0DEG_C_1ATM_NL
+unit:NCM_1ATM_0DEG_C_NL
   qudt:scalingOf unit:MOL .
 
 unit:NT
@@ -1138,13 +1138,13 @@ unit:SCF
 unit:SCM
   qudt:scalingOf unit:MOL .
 
-unit:SCM_0DEG_C_1ATM
+unit:SCM_1ATM_0DEG_C
   qudt:scalingOf unit:MOL .
 
-unit:SCM_15DEG_1ATM_C_NL
+unit:SCM_1ATM_15DEG_C_ISO
   qudt:scalingOf unit:MOL .
 
-unit:SCM_15DEG_C_1ATM_ISO
+unit:SCM_1ATM_15DEG_C_NL
   qudt:scalingOf unit:MOL .
 
 unit:SH
