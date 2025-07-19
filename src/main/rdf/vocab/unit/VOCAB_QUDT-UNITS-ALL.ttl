@@ -45183,7 +45183,7 @@ not the volume of the gas. The reference conditions for standard cubic metre are
   """^^qudt:LatexString ;
   qudt:conversionMultiplier 42.3105 ;
   qudt:conversionMultiplierSN 4.23105E1 ;
-  qudt:exactMatch unit:SCM_0DEG_C_1ATM ;
+  qudt:exactMatch unit:SCM_1ATM_0DEG_C ;
   qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T0D0 ;
   qudt:hasQuantityKind quantitykind:AmountOfSubstance ;
   qudt:informativeReference "doi:10.1016/B978-1-933762-00-5.50012-8"^^xsd:anyURI ;
